@@ -1,6 +1,6 @@
 # Electric Vehicles in Maryland Shiny App ⚡
 
-I developed an R Shiny app to explore electric vehicle station locations in Maryland through the lens of income and population levels. The app also includes visualizations of electric vehicle registrations by jurisdiction. Through this analysis, I take the pulse of the state of electric vehicles in Maryland, as automakers worldwide continue pressing for electric and consumers continue to consider making the shift.
+I developed an R Shiny [app](https://rinatorch.shinyapps.io/evs-in-md/) to explore electric vehicle station locations in Maryland through the lens of income and population levels. The app also includes visualizations of electric vehicle registrations by jurisdiction. Through this analysis, I take the pulse of the state of electric vehicles in Maryland, as automakers worldwide continue pressing for electric and consumers continue to consider making the shift.
 
 ## Methodology and Data
 
