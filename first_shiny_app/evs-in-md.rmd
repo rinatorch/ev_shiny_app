@@ -1,0 +1,114 @@
+---
+title: "evs-in-md.rmd"
+author: "Rina"
+date: "2023-05-31"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Load Libraries
+```{r}
+
+library(httr)
+library(jsonlite)
+library(tidyverse)
+library(leaflet)
+library(shiny)
+library(sf)
+library(tidygeocoder)
+library(tidycensus)
+library(ggplot2)
+
+
+```
+##Accessing the U.S. Department of Energy's Electric Vehicle Station API
+
+#We saved the API Key in our R environment first.
+
+```{r}
+#We construct the URL we need to get into the API. The Sys.getenv references the API key that I
+
+my_url <- paste0("https://developer.nrel.gov/api/alt-fuel-stations/v1.json?&api_key=", 
+                 Sys.getenv("CHARGING_API_KEY"),
+                 "&fuel_type=ELEC&state=MD")
+
+res = GET(my_url)
+data = fromJSON(rawToChar(res$content))
+names(data)
+stations <- data$fuel_stations
+```
+
+#Check to see if results total matches the number of rows I got in stations dataframe.
+```{r}
+
+results <- data$total_results
+
+```
+
+#Select columns of interest.
+```{r}
+
+station_selects <- stations %>%
+  select(access_code, access_days_time, date_last_confirmed, fuel_type_code, id, open_date, restricted_access, station_name, facility_type, latitude, longitude, city, state, street_address, zip, ev_connector_types)
+
+#Some light cleaning
+clean_stations <- station_selects%>%
+  mutate(latitude=ifelse(id==195872,39.3396817,latitude),
+         longitude=ifelse(id==195872,-76.4812393,longitude),
+         latitude=ifelse(id==193781,39.0489226, latitude),
+         longitude=ifelse(id==193781,-76.9579801, longitude),
+         latitude=ifelse(id==250383,38.9898679, latitude),
+         longitude=ifelse(id==250383,-77.096218, longitude))
+
+  
+```
+#Note: This takes a while! The data in the app was extracted on May 13.
+
+#Get county data from from Electric Vehicle API
+```{r}
+
+geo_stations <- clean_stations %>%
+  reverse_geocode(lat = latitude, long = longitude, method = 'osm', full_results = TRUE)
+
+
+geo_stations <- geo_stations%>%
+  select(access_code, access_days_time, date_last_confirmed, fuel_type_code, id, open_date, restricted_access, station_name, facility_type, latitude, longitude, city, state, street_address, zip, county)%>%
+  rename("state" = "state...13")
+
+geo_stations$county <- geo_stations$county %>% replace_na('Baltimore City')
+
+write.csv(reverse_all, file='charging513.csv', row.names=FALSE)
+
+```
+
+
+#Grabbing Census Layers Examples
+#You'll need a Census API Key to get this running.
+```{r}
+
+#Income Tract
+md_income_tract <-get_acs(geography = "tract", 
+                             variables = "B19013_001", 
+                             state = "MD", 
+                             geometry = TRUE)%>%
+                      rename(income = estimate)
+
+#Create Shapefile
+st_write(md_income_tract, "incomes.shp")
+
+#County Populations
+pop_county <- get_acs(geography = "county", 
+                              variables = "B01003_001", 
+                              state = "MD",
+                              geometry = TRUE)
+#Create Shapefile
+st_write(pop_county, "pop_county.shp")
+
+```
+
+
+
+

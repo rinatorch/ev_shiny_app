@@ -1,0 +1,783 @@
+county,Date,Count
+Allegany County,07-01-2020,29
+Allegany County,08-01-2020,32
+Allegany County,09-01-2020,35
+Allegany County,10-01-2020,36
+Allegany County,11-01-2020,37
+Allegany County,12-01-2020,37
+Allegany County,01-01-2021,39
+Allegany County,02-01-2021,39
+Allegany County,03-01-2021,39
+Allegany County,04-01-2021,38
+Allegany County,05-01-2021,39
+Allegany County,06-01-2021,41
+Allegany County,07-01-2021,43
+Allegany County,08-01-2021,44
+Allegany County,09-01-2021,47
+Allegany County,10-01-2021,46
+Allegany County,11-01-2021,46
+Allegany County,12-01-2021,46
+Allegany County,01-01-2022,48
+Allegany County,02-01-2022,51
+Allegany County,03-01-2022,53
+Allegany County,04-01-2022,57
+Allegany County,05-01-2022,60
+Allegany County,06-01-2022,70
+Allegany County,07-01-2022,71
+Allegany County,08-01-2022,73
+Allegany County,09-01-2022,78
+Allegany County,10-01-2022,91
+Allegany County,11-01-2022,85
+Allegany County,12-01-2022,98
+Allegany County,01-01-2023,106
+Allegany County,02-01-2023,108
+Allegany County,03-01-2023,110
+Allegany County,04-01-2023,120
+Anne Arundel County,07-01-2020,1587
+Anne Arundel County,08-01-2020,1625
+Anne Arundel County,09-01-2020,1658
+Anne Arundel County,10-01-2020,1729
+Anne Arundel County,11-01-2020,1783
+Anne Arundel County,12-01-2020,1823
+Anne Arundel County,01-01-2021,1880
+Anne Arundel County,02-01-2021,1912
+Anne Arundel County,03-01-2021,1995
+Anne Arundel County,04-01-2021,2078
+Anne Arundel County,05-01-2021,2141
+Anne Arundel County,06-01-2021,2334
+Anne Arundel County,07-01-2021,2395
+Anne Arundel County,08-01-2021,2707
+Anne Arundel County,09-01-2021,2767
+Anne Arundel County,10-01-2021,2838
+Anne Arundel County,11-01-2021,2949
+Anne Arundel County,12-01-2021,3037
+Anne Arundel County,01-01-2022,3125
+Anne Arundel County,02-01-2022,2977
+Anne Arundel County,03-01-2022,3135
+Anne Arundel County,04-01-2022,3582
+Anne Arundel County,05-01-2022,3677
+Anne Arundel County,06-01-2022,3862
+Anne Arundel County,07-01-2022,3923
+Anne Arundel County,08-01-2022,4051
+Anne Arundel County,09-01-2022,4178
+Anne Arundel County,10-01-2022,4337
+Anne Arundel County,11-01-2022,4577
+Anne Arundel County,12-01-2022,4854
+Anne Arundel County,01-01-2023,5206
+Anne Arundel County,02-01-2023,5404
+Anne Arundel County,03-01-2023,5610
+Anne Arundel County,04-01-2023,5996
+Baltimore County,07-01-2020,1508
+Baltimore County,08-01-2020,1549
+Baltimore County,09-01-2020,1587
+Baltimore County,10-01-2020,1674
+Baltimore County,11-01-2020,1715
+Baltimore County,12-01-2020,1779
+Baltimore County,01-01-2021,1822
+Baltimore County,02-01-2021,1860
+Baltimore County,03-01-2021,1915
+Baltimore County,04-01-2021,1988
+Baltimore County,05-01-2021,2041
+Baltimore County,06-01-2021,2121
+Baltimore County,07-01-2021,2201
+Baltimore County,08-01-2021,2283
+Baltimore County,09-01-2021,2347
+Baltimore County,10-01-2021,2422
+Baltimore County,11-01-2021,2482
+Baltimore County,12-01-2021,2530
+Baltimore County,01-01-2022,2603
+Baltimore County,02-01-2022,2706
+Baltimore County,03-01-2022,2811
+Baltimore County,04-01-2022,2933
+Baltimore County,05-01-2022,3003
+Baltimore County,06-01-2022,3223
+Baltimore County,07-01-2022,3272
+Baltimore County,08-01-2022,3445
+Baltimore County,09-01-2022,3558
+Baltimore County,10-01-2022,3629
+Baltimore County,11-01-2022,3844
+Baltimore County,12-01-2022,3999
+Baltimore County,01-01-2023,4109
+Baltimore County,02-01-2023,4234
+Baltimore County,03-01-2023,4423
+Baltimore County,04-01-2023,4566
+Baltimore City,07-01-2020,770
+Baltimore City,08-01-2020,779
+Baltimore City,09-01-2020,804
+Baltimore City,10-01-2020,833
+Baltimore City,11-01-2020,823
+Baltimore City,12-01-2020,855
+Baltimore City,01-01-2021,871
+Baltimore City,02-01-2021,888
+Baltimore City,03-01-2021,907
+Baltimore City,04-01-2021,945
+Baltimore City,05-01-2021,979
+Baltimore City,06-01-2021,1034
+Baltimore City,07-01-2021,1076
+Baltimore City,08-01-2021,1097
+Baltimore City,09-01-2021,1126
+Baltimore City,10-01-2021,1164
+Baltimore City,11-01-2021,1192
+Baltimore City,12-01-2021,1231
+Baltimore City,01-01-2022,1265
+Baltimore City,02-01-2022,1541
+Baltimore City,03-01-2022,1599
+Baltimore City,04-01-2022,1662
+Baltimore City,05-01-2022,1687
+Baltimore City,06-01-2022,1763
+Baltimore City,07-01-2022,1792
+Baltimore City,08-01-2022,1842
+Baltimore City,09-01-2022,1912
+Baltimore City,10-01-2022,1956
+Baltimore City,11-01-2022,2042
+Baltimore City,12-01-2022,2110
+Baltimore City,01-01-2023,2158
+Baltimore City,02-01-2023,2209
+Baltimore City,03-01-2023,2262
+Baltimore City,04-01-2023,2131
+Calvert County,07-01-2020,140
+Calvert County,08-01-2020,142
+Calvert County,09-01-2020,148
+Calvert County,10-01-2020,157
+Calvert County,11-01-2020,162
+Calvert County,12-01-2020,162
+Calvert County,01-01-2021,164
+Calvert County,02-01-2021,166
+Calvert County,03-01-2021,174
+Calvert County,04-01-2021,189
+Calvert County,05-01-2021,192
+Calvert County,06-01-2021,199
+Calvert County,07-01-2021,210
+Calvert County,08-01-2021,217
+Calvert County,09-01-2021,221
+Calvert County,10-01-2021,229
+Calvert County,11-01-2021,237
+Calvert County,12-01-2021,242
+Calvert County,01-01-2022,251
+Calvert County,02-01-2022,253
+Calvert County,03-01-2022,268
+Calvert County,04-01-2022,273
+Calvert County,05-01-2022,285
+Calvert County,06-01-2022,307
+Calvert County,07-01-2022,325
+Calvert County,08-01-2022,341
+Calvert County,09-01-2022,352
+Calvert County,10-01-2022,354
+Calvert County,11-01-2022,393
+Calvert County,12-01-2022,406
+Calvert County,01-01-2023,419
+Calvert County,02-01-2023,447
+Calvert County,03-01-2023,460
+Calvert County,04-01-2023,469
+Caroline County,07-01-2020,8
+Caroline County,08-01-2020,7
+Caroline County,09-01-2020,7
+Caroline County,10-01-2020,7
+Caroline County,11-01-2020,7
+Caroline County,12-01-2020,7
+Caroline County,01-01-2021,11
+Caroline County,02-01-2021,12
+Caroline County,03-01-2021,12
+Caroline County,04-01-2021,13
+Caroline County,05-01-2021,14
+Caroline County,06-01-2021,15
+Caroline County,07-01-2021,18
+Caroline County,08-01-2021,19
+Caroline County,09-01-2021,19
+Caroline County,10-01-2021,23
+Caroline County,11-01-2021,25
+Caroline County,12-01-2021,25
+Caroline County,01-01-2022,31
+Caroline County,02-01-2022,42
+Caroline County,03-01-2022,48
+Caroline County,04-01-2022,48
+Caroline County,05-01-2022,50
+Caroline County,06-01-2022,56
+Caroline County,07-01-2022,58
+Caroline County,08-01-2022,59
+Caroline County,09-01-2022,64
+Caroline County,10-01-2022,70
+Caroline County,11-01-2022,70
+Caroline County,12-01-2022,70
+Caroline County,01-01-2023,75
+Caroline County,02-01-2023,76
+Caroline County,03-01-2023,80
+Caroline County,04-01-2023,86
+Carroll County,07-01-2020,292
+Carroll County,08-01-2020,300
+Carroll County,09-01-2020,306
+Carroll County,10-01-2020,326
+Carroll County,11-01-2020,336
+Carroll County,12-01-2020,359
+Carroll County,01-01-2021,371
+Carroll County,02-01-2021,378
+Carroll County,03-01-2021,396
+Carroll County,04-01-2021,415
+Carroll County,05-01-2021,428
+Carroll County,06-01-2021,448
+Carroll County,07-01-2021,465
+Carroll County,08-01-2021,473
+Carroll County,09-01-2021,478
+Carroll County,10-01-2021,498
+Carroll County,11-01-2021,508
+Carroll County,12-01-2021,520
+Carroll County,01-01-2022,533
+Carroll County,02-01-2022,554
+Carroll County,03-01-2022,574
+Carroll County,04-01-2022,593
+Carroll County,05-01-2022,605
+Carroll County,06-01-2022,653
+Carroll County,07-01-2022,675
+Carroll County,08-01-2022,708
+Carroll County,09-01-2022,726
+Carroll County,10-01-2022,746
+Carroll County,11-01-2022,797
+Carroll County,12-01-2022,815
+Carroll County,01-01-2023,841
+Carroll County,02-01-2023,874
+Carroll County,03-01-2023,919
+Carroll County,04-01-2023,956
+Cecil County,07-01-2020,82
+Cecil County,08-01-2020,85
+Cecil County,09-01-2020,88
+Cecil County,10-01-2020,92
+Cecil County,11-01-2020,95
+Cecil County,12-01-2020,99
+Cecil County,01-01-2021,104
+Cecil County,02-01-2021,109
+Cecil County,03-01-2021,115
+Cecil County,04-01-2021,117
+Cecil County,05-01-2021,120
+Cecil County,06-01-2021,128
+Cecil County,07-01-2021,137
+Cecil County,08-01-2021,140
+Cecil County,09-01-2021,149
+Cecil County,10-01-2021,150
+Cecil County,11-01-2021,155
+Cecil County,12-01-2021,154
+Cecil County,01-01-2022,162
+Cecil County,02-01-2022,165
+Cecil County,03-01-2022,178
+Cecil County,04-01-2022,185
+Cecil County,05-01-2022,189
+Cecil County,06-01-2022,196
+Cecil County,07-01-2022,200
+Cecil County,08-01-2022,206
+Cecil County,09-01-2022,208
+Cecil County,10-01-2022,211
+Cecil County,11-01-2022,229
+Cecil County,12-01-2022,239
+Cecil County,01-01-2023,244
+Cecil County,02-01-2023,257
+Cecil County,03-01-2023,263
+Cecil County,04-01-2023,267
+Charles County,07-01-2020,197
+Charles County,08-01-2020,205
+Charles County,09-01-2020,202
+Charles County,10-01-2020,211
+Charles County,11-01-2020,223
+Charles County,12-01-2020,228
+Charles County,01-01-2021,247
+Charles County,02-01-2021,256
+Charles County,03-01-2021,273
+Charles County,04-01-2021,285
+Charles County,05-01-2021,302
+Charles County,06-01-2021,320
+Charles County,07-01-2021,334
+Charles County,08-01-2021,360
+Charles County,09-01-2021,376
+Charles County,10-01-2021,395
+Charles County,11-01-2021,408
+Charles County,12-01-2021,417
+Charles County,01-01-2022,442
+Charles County,02-01-2022,461
+Charles County,03-01-2022,482
+Charles County,04-01-2022,515
+Charles County,05-01-2022,544
+Charles County,06-01-2022,593
+Charles County,07-01-2022,610
+Charles County,08-01-2022,622
+Charles County,09-01-2022,647
+Charles County,10-01-2022,671
+Charles County,11-01-2022,734
+Charles County,12-01-2022,760
+Charles County,01-01-2023,786
+Charles County,02-01-2023,809
+Charles County,03-01-2023,846
+Charles County,04-01-2023,876
+Dorchester County,07-01-2020,24
+Dorchester County,08-01-2020,24
+Dorchester County,09-01-2020,24
+Dorchester County,10-01-2020,23
+Dorchester County,11-01-2020,24
+Dorchester County,12-01-2020,24
+Dorchester County,01-01-2021,24
+Dorchester County,02-01-2021,25
+Dorchester County,03-01-2021,25
+Dorchester County,04-01-2021,24
+Dorchester County,05-01-2021,28
+Dorchester County,06-01-2021,29
+Dorchester County,07-01-2021,29
+Dorchester County,08-01-2021,30
+Dorchester County,09-01-2021,32
+Dorchester County,10-01-2021,31
+Dorchester County,11-01-2021,31
+Dorchester County,12-01-2021,32
+Dorchester County,01-01-2022,34
+Dorchester County,02-01-2022,37
+Dorchester County,03-01-2022,37
+Dorchester County,04-01-2022,37
+Dorchester County,05-01-2022,40
+Dorchester County,06-01-2022,43
+Dorchester County,07-01-2022,45
+Dorchester County,08-01-2022,47
+Dorchester County,09-01-2022,50
+Dorchester County,10-01-2022,52
+Dorchester County,11-01-2022,56
+Dorchester County,12-01-2022,58
+Dorchester County,01-01-2023,59
+Dorchester County,02-01-2023,61
+Dorchester County,03-01-2023,61
+Dorchester County,04-01-2023,63
+Frederick County,07-01-2020,710
+Frederick County,08-01-2020,734
+Frederick County,09-01-2020,755
+Frederick County,10-01-2020,785
+Frederick County,11-01-2020,811
+Frederick County,12-01-2020,840
+Frederick County,01-01-2021,864
+Frederick County,02-01-2021,879
+Frederick County,03-01-2021,912
+Frederick County,04-01-2021,950
+Frederick County,05-01-2021,975
+Frederick County,06-01-2021,1038
+Frederick County,07-01-2021,1068
+Frederick County,08-01-2021,1088
+Frederick County,09-01-2021,1129
+Frederick County,10-01-2021,1166
+Frederick County,11-01-2021,1198
+Frederick County,12-01-2021,1233
+Frederick County,01-01-2022,1285
+Frederick County,02-01-2022,1336
+Frederick County,03-01-2022,1400
+Frederick County,04-01-2022,1472
+Frederick County,05-01-2022,1540
+Frederick County,06-01-2022,1676
+Frederick County,07-01-2022,1724
+Frederick County,08-01-2022,1786
+Frederick County,09-01-2022,1852
+Frederick County,10-01-2022,1909
+Frederick County,11-01-2022,2022
+Frederick County,12-01-2022,2095
+Frederick County,01-01-2023,2180
+Frederick County,02-01-2023,2287
+Frederick County,03-01-2023,2404
+Frederick County,04-01-2023,2477
+Garrett County,07-01-2020,15
+Garrett County,08-01-2020,15
+Garrett County,09-01-2020,17
+Garrett County,10-01-2020,17
+Garrett County,11-01-2020,16
+Garrett County,12-01-2020,15
+Garrett County,01-01-2021,15
+Garrett County,02-01-2021,18
+Garrett County,03-01-2021,18
+Garrett County,04-01-2021,19
+Garrett County,05-01-2021,18
+Garrett County,06-01-2021,19
+Garrett County,07-01-2021,22
+Garrett County,08-01-2021,22
+Garrett County,09-01-2021,22
+Garrett County,10-01-2021,22
+Garrett County,11-01-2021,23
+Garrett County,12-01-2021,26
+Garrett County,01-01-2022,26
+Garrett County,02-01-2022,23
+Garrett County,03-01-2022,24
+Garrett County,04-01-2022,25
+Garrett County,05-01-2022,26
+Garrett County,06-01-2022,26
+Garrett County,07-01-2022,26
+Garrett County,08-01-2022,27
+Garrett County,09-01-2022,30
+Garrett County,10-01-2022,32
+Garrett County,11-01-2022,34
+Garrett County,12-01-2022,34
+Garrett County,01-01-2023,39
+Garrett County,02-01-2023,38
+Garrett County,03-01-2023,38
+Garrett County,04-01-2023,44
+Harford County,07-01-2020,321
+Harford County,08-01-2020,329
+Harford County,09-01-2020,341
+Harford County,10-01-2020,360
+Harford County,11-01-2020,369
+Harford County,12-01-2020,378
+Harford County,01-01-2021,389
+Harford County,02-01-2021,392
+Harford County,03-01-2021,419
+Harford County,04-01-2021,433
+Harford County,05-01-2021,440
+Harford County,06-01-2021,469
+Harford County,07-01-2021,494
+Harford County,08-01-2021,512
+Harford County,09-01-2021,528
+Harford County,10-01-2021,546
+Harford County,11-01-2021,567
+Harford County,12-01-2021,578
+Harford County,01-01-2022,592
+Harford County,02-01-2022,606
+Harford County,03-01-2022,631
+Harford County,04-01-2022,669
+Harford County,05-01-2022,702
+Harford County,06-01-2022,763
+Harford County,07-01-2022,794
+Harford County,08-01-2022,808
+Harford County,09-01-2022,848
+Harford County,10-01-2022,877
+Harford County,11-01-2022,937
+Harford County,12-01-2022,979
+Harford County,01-01-2023,1003
+Harford County,02-01-2023,1049
+Harford County,03-01-2023,1112
+Harford County,04-01-2023,1158
+Howard County,07-01-2020,1934
+Howard County,08-01-2020,1979
+Howard County,09-01-2020,2014
+Howard County,10-01-2020,2085
+Howard County,11-01-2020,2132
+Howard County,12-01-2020,2188
+Howard County,01-01-2021,2237
+Howard County,02-01-2021,2258
+Howard County,03-01-2021,2309
+Howard County,04-01-2021,2402
+Howard County,05-01-2021,2448
+Howard County,06-01-2021,2589
+Howard County,07-01-2021,2658
+Howard County,08-01-2021,2739
+Howard County,09-01-2021,2796
+Howard County,10-01-2021,2887
+Howard County,11-01-2021,2973
+Howard County,12-01-2021,3056
+Howard County,01-01-2022,3165
+Howard County,02-01-2022,3278
+Howard County,03-01-2022,3425
+Howard County,04-01-2022,3577
+Howard County,05-01-2022,3698
+Howard County,06-01-2022,3941
+Howard County,07-01-2022,3983
+Howard County,08-01-2022,4133
+Howard County,09-01-2022,4317
+Howard County,10-01-2022,4440
+Howard County,11-01-2022,4693
+Howard County,12-01-2022,4969
+Howard County,01-01-2023,5125
+Howard County,02-01-2023,5382
+Howard County,03-01-2023,5665
+Howard County,04-01-2023,5864
+Montgomery County,07-01-2020,5791
+Montgomery County,08-01-2020,5944
+Montgomery County,09-01-2020,6040
+Montgomery County,10-01-2020,6259
+Montgomery County,11-01-2020,6364
+Montgomery County,12-01-2020,6527
+Montgomery County,01-01-2021,6694
+Montgomery County,02-01-2021,6761
+Montgomery County,03-01-2021,6930
+Montgomery County,04-01-2021,7153
+Montgomery County,05-01-2021,7310
+Montgomery County,06-01-2021,7705
+Montgomery County,07-01-2021,7963
+Montgomery County,08-01-2021,8140
+Montgomery County,09-01-2021,8344
+Montgomery County,10-01-2021,8580
+Montgomery County,11-01-2021,8765
+Montgomery County,12-01-2021,8971
+Montgomery County,01-01-2022,9239
+Montgomery County,02-01-2022,9551
+Montgomery County,03-01-2022,9932
+Montgomery County,04-01-2022,10308
+Montgomery County,05-01-2022,10563
+Montgomery County,06-01-2022,11119
+Montgomery County,07-01-2022,11237
+Montgomery County,08-01-2022,11603
+Montgomery County,09-01-2022,12094
+Montgomery County,10-01-2022,12429
+Montgomery County,11-01-2022,13033
+Montgomery County,12-01-2022,13591
+Montgomery County,01-01-2023,13992
+Montgomery County,02-01-2023,14482
+Montgomery County,03-01-2023,15079
+Montgomery County,04-01-2023,15560
+Prince Georges County,07-01-2020,1208
+Prince Georges County,08-01-2020,1235
+Prince Georges County,09-01-2020,1264
+Prince Georges County,10-01-2020,1323
+Prince Georges County,11-01-2020,1359
+Prince Georges County,12-01-2020,1399
+Prince Georges County,01-01-2021,1451
+Prince Georges County,02-01-2021,1488
+Prince Georges County,03-01-2021,1547
+Prince Georges County,04-01-2021,1608
+Prince Georges County,05-01-2021,1680
+Prince Georges County,06-01-2021,1754
+Prince Georges County,07-01-2021,1851
+Prince Georges County,08-01-2021,1912
+Prince Georges County,09-01-2021,1983
+Prince Georges County,10-01-2021,2061
+Prince Georges County,11-01-2021,2112
+Prince Georges County,12-01-2021,2166
+Prince Georges County,01-01-2022,2256
+Prince Georges County,02-01-2022,2350
+Prince Georges County,03-01-2022,2479
+Prince Georges County,04-01-2022,2603
+Prince Georges County,05-01-2022,2702
+Prince Georges County,06-01-2022,2886
+Prince Georges County,07-01-2022,2955
+Prince Georges County,08-01-2022,3073
+Prince Georges County,09-01-2022,3206
+Prince Georges County,10-01-2022,3352
+Prince Georges County,11-01-2022,3641
+Prince Georges County,12-01-2022,3769
+Prince Georges County,01-01-2023,3895
+Prince Georges County,02-01-2023,4019
+Prince Georges County,03-01-2023,4202
+Prince Georges County,04-01-2023,4379
+Queen Annes County,07-01-2020,84
+Queen Annes County,08-01-2020,86
+Queen Annes County,09-01-2020,87
+Queen Annes County,10-01-2020,91
+Queen Annes County,11-01-2020,94
+Queen Annes County,12-01-2020,96
+Queen Annes County,01-01-2021,97
+Queen Annes County,02-01-2021,100
+Queen Annes County,03-01-2021,105
+Queen Annes County,04-01-2021,114
+Queen Annes County,05-01-2021,118
+Queen Annes County,06-01-2021,120
+Queen Annes County,07-01-2021,128
+Queen Annes County,08-01-2021,133
+Queen Annes County,09-01-2021,134
+Queen Annes County,10-01-2021,133
+Queen Annes County,11-01-2021,141
+Queen Annes County,12-01-2021,145
+Queen Annes County,01-01-2022,148
+Queen Annes County,02-01-2022,155
+Queen Annes County,03-01-2022,160
+Queen Annes County,04-01-2022,167
+Queen Annes County,05-01-2022,178
+Queen Annes County,06-01-2022,189
+Queen Annes County,07-01-2022,194
+Queen Annes County,08-01-2022,208
+Queen Annes County,09-01-2022,208
+Queen Annes County,10-01-2022,217
+Queen Annes County,11-01-2022,230
+Queen Annes County,12-01-2022,242
+Queen Annes County,01-01-2023,248
+Queen Annes County,02-01-2023,256
+Queen Annes County,03-01-2023,272
+Queen Annes County,04-01-2023,280
+Saint Marys County,07-01-2020,144
+Saint Marys County,08-01-2020,152
+Saint Marys County,09-01-2020,154
+Saint Marys County,10-01-2020,159
+Saint Marys County,11-01-2020,161
+Saint Marys County,12-01-2020,166
+Saint Marys County,01-01-2021,169
+Saint Marys County,02-01-2021,176
+Saint Marys County,03-01-2021,184
+Saint Marys County,04-01-2021,196
+Saint Marys County,05-01-2021,207
+Saint Marys County,06-01-2021,210
+Saint Marys County,07-01-2021,226
+Saint Marys County,08-01-2021,230
+Saint Marys County,09-01-2021,245
+Saint Marys County,10-01-2021,251
+Saint Marys County,11-01-2021,254
+Saint Marys County,12-01-2021,260
+Saint Marys County,01-01-2022,270
+Saint Marys County,02-01-2022,288
+Saint Marys County,03-01-2022,299
+Saint Marys County,04-01-2022,320
+Saint Marys County,05-01-2022,335
+Saint Marys County,06-01-2022,350
+Saint Marys County,07-01-2022,362
+Saint Marys County,08-01-2022,373
+Saint Marys County,09-01-2022,379
+Saint Marys County,10-01-2022,388
+Saint Marys County,11-01-2022,411
+Saint Marys County,12-01-2022,422
+Saint Marys County,01-01-2023,426
+Saint Marys County,02-01-2023,436
+Saint Marys County,03-01-2023,446
+Saint Marys County,04-01-2023,463
+Somerset County,07-01-2020,2
+Somerset County,08-01-2020,2
+Somerset County,09-01-2020,3
+Somerset County,10-01-2020,3
+Somerset County,11-01-2020,3
+Somerset County,12-01-2020,3
+Somerset County,01-01-2021,3
+Somerset County,02-01-2021,3
+Somerset County,03-01-2021,3
+Somerset County,04-01-2021,4
+Somerset County,05-01-2021,4
+Somerset County,06-01-2021,5
+Somerset County,07-01-2021,5
+Somerset County,08-01-2021,5
+Somerset County,09-01-2021,5
+Somerset County,10-01-2021,5
+Somerset County,11-01-2021,4
+Somerset County,12-01-2021,5
+Somerset County,01-01-2022,5
+Somerset County,02-01-2022,5
+Somerset County,03-01-2022,6
+Somerset County,04-01-2022,6
+Somerset County,05-01-2022,6
+Somerset County,06-01-2022,6
+Somerset County,07-01-2022,6
+Somerset County,08-01-2022,7
+Somerset County,09-01-2022,7
+Somerset County,10-01-2022,7
+Somerset County,11-01-2022,8
+Somerset County,12-01-2022,9
+Somerset County,01-01-2023,11
+Somerset County,02-01-2023,11
+Somerset County,03-01-2023,13
+Somerset County,04-01-2023,14
+Talbot County,07-01-2020,68
+Talbot County,08-01-2020,71
+Talbot County,09-01-2020,73
+Talbot County,10-01-2020,80
+Talbot County,11-01-2020,85
+Talbot County,12-01-2020,88
+Talbot County,01-01-2021,95
+Talbot County,02-01-2021,96
+Talbot County,03-01-2021,99
+Talbot County,04-01-2021,101
+Talbot County,05-01-2021,107
+Talbot County,06-01-2021,108
+Talbot County,07-01-2021,113
+Talbot County,08-01-2021,118
+Talbot County,09-01-2021,124
+Talbot County,10-01-2021,125
+Talbot County,11-01-2021,131
+Talbot County,12-01-2021,132
+Talbot County,01-01-2022,138
+Talbot County,02-01-2022,145
+Talbot County,03-01-2022,154
+Talbot County,04-01-2022,160
+Talbot County,05-01-2022,168
+Talbot County,06-01-2022,183
+Talbot County,07-01-2022,189
+Talbot County,08-01-2022,191
+Talbot County,09-01-2022,202
+Talbot County,10-01-2022,203
+Talbot County,11-01-2022,218
+Talbot County,12-01-2022,225
+Talbot County,01-01-2023,227
+Talbot County,02-01-2023,232
+Talbot County,03-01-2023,238
+Talbot County,04-01-2023,243
+Washington County,07-01-2020,136
+Washington County,08-01-2020,138
+Washington County,09-01-2020,138
+Washington County,10-01-2020,145
+Washington County,11-01-2020,147
+Washington County,12-01-2020,156
+Washington County,01-01-2021,158
+Washington County,02-01-2021,161
+Washington County,03-01-2021,165
+Washington County,04-01-2021,171
+Washington County,05-01-2021,179
+Washington County,06-01-2021,191
+Washington County,07-01-2021,199
+Washington County,08-01-2021,207
+Washington County,09-01-2021,215
+Washington County,10-01-2021,218
+Washington County,11-01-2021,225
+Washington County,12-01-2021,226
+Washington County,01-01-2022,233
+Washington County,02-01-2022,242
+Washington County,03-01-2022,245
+Washington County,04-01-2022,257
+Washington County,05-01-2022,263
+Washington County,06-01-2022,285
+Washington County,07-01-2022,284
+Washington County,08-01-2022,291
+Washington County,09-01-2022,299
+Washington County,10-01-2022,306
+Washington County,11-01-2022,328
+Washington County,12-01-2022,341
+Washington County,01-01-2023,354
+Washington County,02-01-2023,367
+Washington County,03-01-2023,382
+Washington County,04-01-2023,391
+Wicomico County,07-01-2020,50
+Wicomico County,08-01-2020,52
+Wicomico County,09-01-2020,55
+Wicomico County,10-01-2020,59
+Wicomico County,11-01-2020,59
+Wicomico County,12-01-2020,59
+Wicomico County,01-01-2021,59
+Wicomico County,02-01-2021,61
+Wicomico County,03-01-2021,65
+Wicomico County,04-01-2021,65
+Wicomico County,05-01-2021,67
+Wicomico County,06-01-2021,74
+Wicomico County,07-01-2021,76
+Wicomico County,08-01-2021,74
+Wicomico County,09-01-2021,76
+Wicomico County,10-01-2021,78
+Wicomico County,11-01-2021,85
+Wicomico County,12-01-2021,88
+Wicomico County,01-01-2022,90
+Wicomico County,02-01-2022,93
+Wicomico County,03-01-2022,98
+Wicomico County,04-01-2022,103
+Wicomico County,05-01-2022,106
+Wicomico County,06-01-2022,120
+Wicomico County,07-01-2022,123
+Wicomico County,08-01-2022,128
+Wicomico County,09-01-2022,138
+Wicomico County,10-01-2022,138
+Wicomico County,11-01-2022,153
+Wicomico County,12-01-2022,157
+Wicomico County,01-01-2023,163
+Wicomico County,02-01-2023,170
+Wicomico County,03-01-2023,178
+Wicomico County,04-01-2023,185
+Worcester County,07-01-2020,46
+Worcester County,08-01-2020,47
+Worcester County,09-01-2020,46
+Worcester County,10-01-2020,49
+Worcester County,11-01-2020,51
+Worcester County,12-01-2020,54
+Worcester County,01-01-2021,55
+Worcester County,02-01-2021,58
+Worcester County,03-01-2021,58
+Worcester County,04-01-2021,56
+Worcester County,05-01-2021,60
+Worcester County,06-01-2021,61
+Worcester County,07-01-2021,66
+Worcester County,08-01-2021,68
+Worcester County,09-01-2021,72
+Worcester County,10-01-2021,77
+Worcester County,11-01-2021,77
+Worcester County,12-01-2021,76
+Worcester County,01-01-2022,83
+Worcester County,02-01-2022,87
+Worcester County,03-01-2022,96
+Worcester County,04-01-2022,99
+Worcester County,05-01-2022,109
+Worcester County,06-01-2022,114
+Worcester County,07-01-2022,118
+Worcester County,08-01-2022,125
+Worcester County,09-01-2022,133
+Worcester County,10-01-2022,135
+Worcester County,11-01-2022,145
+Worcester County,12-01-2022,159
+Worcester County,01-01-2023,170
+Worcester County,02-01-2023,175
+Worcester County,03-01-2023,189
+Worcester County,04-01-2023,197
