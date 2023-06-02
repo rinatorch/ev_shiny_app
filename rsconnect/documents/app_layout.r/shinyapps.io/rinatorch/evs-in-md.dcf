@@ -5,9 +5,9 @@ account: rinatorch
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 9224207
-bundleId: 7288021
+bundleId: 7298021
 url: https://rinatorch.shinyapps.io/evs-in-md/
-when: 1685558539.77191
-lastSyncTime: 1685558539.77202
+when: 1685730319.2132
+lastSyncTime: 1685730319.21322
 asMultiple: FALSE
 asStatic: FALSE
