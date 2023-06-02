@@ -97,7 +97,8 @@ ui <- fluidPage(
       hr(),
       p(
         HTML(
-          "Data Sources: U.S. Census, ", "<a href='https://developer.nrel.gov/docs/transportation/alt-fuel-stations-v1/'>U.S. Department of Energy</a>")),
+          "Data Sources: U.S. Census, ", "<a href='https://developer.nrel.gov/docs/transportation/alt-fuel-stations-v1/'>U.S. Department of Energy</a>", 
+          "<br>Learn more and <a href='https://github.com/rinatorch/ev_shiny_app/blob/main-branch/README.md'>explore the code on GitHub.</a>")),
       
       
       )
@@ -111,25 +112,15 @@ ui <- fluidPage(
         column(
           width = 3,
           p(
-            HTML("<br><br>Baltimore City and Montgomery and Prince George's counties each have more than 200 electric vehicle charging stations, federal data showed in May.
-            <br><br>It's important to note the role population plays in these figures. Montgomery and Prince George's counties are the most populous Maryland counties. Meanwhile, Somerset and Caroline counties each have populations below 50,000.", "<br><br>Toggle between the station and population tabs to explore further.", "<br><br>Below, explore where electric and plug-in hybrid vehicles are registered.")
+            HTML("<br>Baltimore City and Montgomery and Prince George's counties each have more than 200 electric vehicle charging stations, federal data showed in May.
+            <br><br>It's important to note the role population plays in these figures. Montgomery and Prince George's counties are the most populous Maryland counties. Meanwhile, Somerset and Caroline counties each have populations below 50,000.", "<br><br>The scatterplot, at right, accounts for population. Hover over the dots to learn more.", "<br><br>Below, explore where electric and plug-in hybrid vehicles are registered.")
           )
           ),
   
         column(
           width = 9,
-          tabsetPanel(
-            id = "tabset",
-            tabPanel(
-              "Stations",
-              plotlyOutput("barplot")
-            ),
-            tabPanel(
-              "Population",
-              plotlyOutput("popplot")
-              
-            ))
-
+                plotlyOutput("scatterplot")
+            
         ),
 
         fluidRow(
@@ -151,7 +142,8 @@ ui <- fluidPage(
           hr(),
           p(
             HTML(
-              "<br><br>Data Sources: <a href='https://opendata.maryland.gov/Transportation/MDOT-MVA-Electric-and-Plug-in-Hybrid-Vehicle-Regis/qtcv-n3tc'>Maryland Department of Transportation/Maryland Motor Vehicle Administration,</a>", "U.S. Census, ", "<a href='https://developer.nrel.gov/docs/transportation/alt-fuel-stations-v1/'>U.S. Department of Energy</a>")),
+              "<br><br>Data Sources: <a href='https://opendata.maryland.gov/Transportation/MDOT-MVA-Electric-and-Plug-in-Hybrid-Vehicle-Regis/qtcv-n3tc'>Maryland Department of Transportation/Maryland Motor Vehicle Administration,</a>", "U.S. Census, ", "<a href='https://developer.nrel.gov/docs/transportation/alt-fuel-stations-v1/'>U.S. Department of Energy</a>",
+              "<br>Learn more and <a href='https://github.com/rinatorch/ev_shiny_app/blob/main-branch/README.md'>explore the code on GitHub.</a>")),
           
 
         )
@@ -186,63 +178,49 @@ server <- function(input, output, session) {
 
 #Develop County Bar Chart on Data Insights Page
 
-    output$barplot<- renderPlotly({
+    output$scatterplot<- renderPlotly({
     
-    station_county_table <- 
-      clean_stations %>% 
-      count(county)%>%
-      arrange(desc(n))
-    
-  barplot <- ggplot() + 
-      geom_bar(
-        data=station_county_table, 
-        fill="#2A788EFF",
-        aes(
-          x=reorder(county, n),
-          weight=n))+
-      coord_flip()+
-      labs(
-        title="Electric Vehicle Charging Stations, by Jurisdiction", 
-        x="Jurisdiction", 
-        y="Station Count"
-      )+
-      theme_minimal()
-  
-  ggplotly(barplot, tooltip = c("count"))
+      station_county_table <- 
+        clean_stations %>% 
+        count(county)%>%
+        arrange(desc(n))%>%
+        mutate(county = str_replace(county, "Saint", "St."))
+      
+      #populations
+      pop_county_df <- get_acs(geography = "county", 
+                               variables = "B01003_001", 
+                               state = "MD",
+                               geometry = FALSE)%>%
+        rename("pop" = "estimate")%>%
+        rename("county" = "NAME")
+      pop_county_df$county = str_to_title(pop_county_df$county)
+      
+      pop_county_df$county<-gsub(", Maryland","",as.character(pop_county_df$county))
+      
+      #join
+      county_pop <- inner_join(pop_county_df, station_county_table, by = "county")%>%
+        select(county, n, pop)
+      
+      #plot
+      
+      pop_county_plot <- ggplot(county_pop, aes(text = paste0('<b>Jurisdiction</b>: ', county, '<br>', '<b>Population</b>: ', pop, '<br>', '<b>Station Count</b>: ', n))) +
+        geom_point(aes(x = pop, y = n), size = 3, color='#2A788EFF') +
+        theme_minimal()+
+        labs(
+          title="Electric Vehicle Charging Stations Locations, by Population and Station Count", 
+          x="Population", 
+          y="Station Count"
+        )
+      
+      
+      plotly_pop_plot <- ggplotly(pop_county_plot, tooltip = "text") %>%
+        layout(hoverlabel = list(namelength = -1))
+      
+      plotly_pop_plot
 
   })
   
   
-#Develop Population Bar Chart on Data Insights Page
-  
-  output$popplot<- renderPlotly({
-
-  pop_county_df <- get_acs(geography = "county", 
-                           variables = "B01003_001", 
-                           state = "MD",
-                           geometry = FALSE)
-  pop_county_df$NAME = str_to_title(pop_county_df$NAME)
-  
-  pop_county_df$NAME<-gsub(", Maryland","",as.character(pop_county_df$NAME))
-  
-  pop_bars <- ggplot() + 
-    geom_bar(
-      fill = "#7AD151FF",
-      data=pop_county_df, 
-      aes(
-        x=reorder(NAME, estimate),
-        weight=estimate))+
-    coord_flip()+
-    theme_minimal()+
-    labs(
-      title="Population, by Jurisdiction", 
-      x="Jurisdiction", 
-      y="Population"
-    )
-  
-  ggplotly(pop_bars, tooltip = c("count"))
-  
-  })
   
 #Develop County EVs Line Chart on Data Insights Page
   

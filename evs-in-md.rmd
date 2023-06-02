@@ -21,6 +21,8 @@ library(sf)
 library(tidygeocoder)
 library(tidycensus)
 library(ggplot2)
+library(dplyr)
+library(plotly)
 
 
 ```
@@ -108,6 +110,9 @@ pop_county <- get_acs(geography = "county",
 st_write(pop_county, "pop_county.shp")
 
 ```
+
+
+
 
 
 
